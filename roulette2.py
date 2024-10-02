@@ -26,12 +26,12 @@ for i in range(25):
         else:
             bet = 15
             bank-=bet
-        if(row==0):
+        if(row == 0):
             bet = 10
             bank+=(bet+(bet*2))
         else:
             bet = 10
-            bank-=bet
+            bank -= bet
 
         bnk.append(bank)
     bankot.append(bnk)
